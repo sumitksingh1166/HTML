@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie ticket booking</title>
+</head>
+<body>
+    <h1>Book The Show</h1>
+    <hr>
+    <form>
+        <!-- for selecting movie name -->
+        <label for= "name">Movie name:</label>
+        <input type="text" list="movie name"/>
+        <datalist id="movie name">
+            <option>Avengers</option>
+            <option>Demon slayer:kimetsu no yaiba</option>
+            <option>jumper</option>
+            <option>The sharp water</option>
+            <option>Dhaakad</option>
+            <option>la la land</option>
+        </datalist>
+        <br>
+        <br>
+        
+        <!-- for selecting no. of tickets -->
+        <label for="number">Number of tickets:</label>
+        <input type="tel"/>
+        <br>
+        <br>
+        <!-- booking date -->
+        <label for="date">Booking date:</label>
+        <input type="date"/>
+        <br>
+        <br>
+        <!-- slot time -->
+        <label for="time">Slot time:</label>
+        <select>
+            <option>8-11 AM</option>
+            <option>11AM-2PM</option>
+            <option>2-5PM</option>
+            <option>5-8 PM</option>
+            <option>8-11PM</option>
+            <option>11 PM-2AM</option>
+        </select>
+        <br>
+        <br>
+        <!-- selecting seats -->
+        <label for="">Select seat:</label>
+        <input type="text"list="Select seat"/>
+        <datalist id="Select seat">
+            <option>Royale</option>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <option>Club</option>
+            <option>Executive</option>
+        </datalist>
+        <br>
+        <br>
+        <hr>
+        <!-- select food iem -->
+        <h3>Grab a Bite!</h3>
+        <label for="">All</label>
+        <select>
+            <option>coke</option>
+            <option>Large Salted popcorn</option>
+            <option>Nachos</option>
+            <option>combos</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <!-- payment option -->
+        <h2>Payment detail:</h2>
+        <label for="">Payment type:</label>
+        <input type="text"list="Payment type"/>
+        <datalist id="Payment type">
+            <option>credit card</option>
+            <option>debit card</option>
+            <option>UPI</option>
+            
+                <option>G pay</option>
+                <option>paytm</option>
+                <option> phone pay</option>
+            
+        </datalist>
+        <br>
+        <br>
+        <!-- for submit button -->
+        <input type="submit"/>
+        <br>
+        <br>        
+        <hr>
+        <h4>THANK YOU!</h4>     
+
+
+
+    </form>
+</body>
+</html>
